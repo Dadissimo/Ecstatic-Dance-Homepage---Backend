@@ -24,5 +24,13 @@ export default {
         type: 'boolean',
         title: 'Is a Dj?'
       },
+      {
+        title: 'Picture',
+        name: 'picture',
+        type: 'image',
+        options: {
+          hotspot: true // <-- Defaults to false
+        }
+      }
     ]
   }
