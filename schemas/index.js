@@ -9,5 +9,5 @@ export const schemaTypes = [
     siteSettings,
     event,
     crewMember,
-    location
+    location,
 ]

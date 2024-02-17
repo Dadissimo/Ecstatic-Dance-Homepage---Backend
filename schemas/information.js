@@ -19,6 +19,21 @@ export default {
         name: 'content',
         type: 'array', 
         of: [{type: 'block'}]
+      },
+      {
+        title: 'Picture',
+        name: 'picture',
+        type: 'image',
+        options: {
+          hotspot: true // <-- Defaults to false
+        },
+        fields: [
+          {
+            name: 'caption',
+            type: 'string',
+            title: 'Caption',
+          }
+        ]
       }
     ]
   }
