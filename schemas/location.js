@@ -12,7 +12,17 @@ export default {
       {
         name: 'description',
         type: 'string',
-        title: 'Description/Address'
+        title: 'Description'
+      },
+      {
+        name: 'address',
+        type: 'string',
+        title: 'Address'
+      },
+      {
+        name: 'googleMapLink',
+        type: 'string',
+        title: 'Google Map Link'
       },
     ]
   }
