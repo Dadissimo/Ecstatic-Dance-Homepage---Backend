@@ -20,6 +20,11 @@ export default {
         title: 'Artist Name'
       },
       {
+        name: 'bio',
+        type: 'text',
+        title: 'Biography'
+      },
+      {
         name: 'isDj',
         type: 'boolean',
         title: 'Is a Dj?'
@@ -31,6 +36,30 @@ export default {
         options: {
           hotspot: true // <-- Defaults to false
         }
-      }
+      },
+      {
+        name: 'instagram',
+        type: 'string',
+        title: 'Instagram',
+        description: 'Enter only the tag after instagram.com/...'
+      },
+      {
+        name: 'facebook',
+        type: 'string',
+        title: 'Facebook',
+        description: 'Enter only the tag after facebook.com/...'
+      },
+      {
+        name: 'soundcloud',
+        type: 'string',
+        title: 'Soundcloud',
+        description: 'Enter only the tag after soundcloud.com/...'
+      },
+      {
+        name: 'homepage',
+        type: 'string',
+        title: 'Homepage',
+        description: 'Enter the full address'
+      },
     ]
   }
