@@ -30,7 +30,14 @@ export default {
         name: 'content',
         type: 'array', 
         of: [{type: 'block'}],
-        description: 'Description of the event and/or news'
+        description: 'Description of the event'
+      },
+      {
+        title: 'News', 
+        name: 'news',
+        type: 'array', 
+        of: [{type: 'block'}],
+        description: 'Additional news'
       },
       {
         name: 'dj',

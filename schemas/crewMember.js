@@ -30,6 +30,12 @@ export default {
         title: 'Is a Dj?'
       },
       {
+        name: 'isGuest',
+        type: 'boolean',
+        title: 'Is only a guest?',
+        description: 'If selected, this crew member wont be shown in the crew section'
+      },
+      {
         title: 'Picture',
         name: 'picture',
         type: 'image',

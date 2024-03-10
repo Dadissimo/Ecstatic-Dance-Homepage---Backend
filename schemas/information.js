@@ -5,14 +5,22 @@ export default {
     title: 'Information',
     fields: [
       {
-        name: 'id',
-        type: 'string',
-        title: 'Id'
-      },
-      {
         name: 'title',
         type: 'string',
         title: 'Title'
+      },
+      {
+        name: 'sortNumber',
+        type: 'number',
+        title: 'Sorting Number',
+        description: 'Number for sorting, lowest number will get shown first',
+        validation: rule => rule.required()
+      },
+      {
+        name: 'expandedOnDefault',
+        type: 'boolean',
+        title: 'Is expanded per default',
+        description: 'If selected, this information will be expanded initially'
       },
       {
         title: 'Content', 
